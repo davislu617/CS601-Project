@@ -23,8 +23,10 @@ img{
     z-index: 4;
     position: fixed;
 }
-
-.splash {
+.splash{
+    padding-top: 10%;
+}
+.splash-home {
     padding-top: 25%;
     text-align: center;
     text-transform: uppercase;
@@ -127,7 +129,7 @@ div.footer > span{
     .splash-head {
         font-weight: bold;
         color: white;
-        font-size: 50%;
+        font-size: 80%;
         height: 40%;
         width:80%;
         float: left;

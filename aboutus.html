@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Grand Master Hong</title>
+  <title>About us -- Grand Master Hong</title>
   
   <script src="http://code.jquery.com/jquery-2.1.3.js"></script>
   <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script> 
@@ -14,16 +14,20 @@
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/side-menu.css">
+  <link rel="stylesheet" href="css/aboutus.css">
   
   <style>
     * { font-family: Raleway; }
     #home_img{
         margin-top: 10%;
     }
+
     .content-head, label{
         color:white;
     }
   </style>
+
+  <script src="js/readmore.js"></script>
   
  </head>
 <body>
@@ -39,8 +43,8 @@
             <a class="pure-menu-heading" href="#">Welcome</a>
 
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
-                <li class="pure-menu-item"><a href="aboutus.html" class="pure-menu-link">About</a></li>
+                <li class="pure-menu-item"><a href="home.html" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
                 <li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
                     <a href="#" class="pure-menu-link">Program</a>
                 </li>
@@ -62,7 +66,7 @@
 
     <div id="main">
        
-        <div class="splash-home">
+        <div class="splash">
             <div class="splash-img">
                 <img class="pure-img" alt="logo" src="image/logo1.png">
             </div>
@@ -72,25 +76,51 @@
         </div>
         <br>
 
-
-        <br>
-        <div id="home_img" class="pure-g">
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="image/b1.jpg" alt="Family Self Defense">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="image/b2.jpg" alt="Children Programs">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="image/b3.jpg" alt="Teen Self Defense">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="image/b4.jpg" alt="Adult Self Defense">
-                </div>
+        <div class="intro">
+            <div class="div-img">
+            <img class="intro-img" alt="logo" src="image/grmHong.jpg">
             </div>
+            <div class="div-content">
+                <span class="more">
+                    Grand Master Jin R. Hong, a 9th Dan black belt in Taekwondo, has more than 40 years 
+                    of experience in martial arts training. An internationally certified referee and a 
+                    Group A member of both the US Olympic Committee and Pan-American Games, he also 
+                    hosts his annual Rhode Island Open tournament. After arriving in the United States 
+                    in 1982, Grand Master Hong opened his first school, focusing his teachings on both 
+                    traditional and Olympic styles. The following year, he founded the Taekwondo Club 
+                    of Brown University, which he also taught for the next twenty years. In 1993, he 
+                    opened another school, continuing to teach students the vast benefits of Taekwondo. 
+                    The accolates that Grand Master Hong has received are not only numerous, but also 
+                    very well deserved. He has been awarded as one of the top ten grand masters in in 
+                    the United States. His teachings have given rise to over one thousand black belts, 
+                    some of whom have gone on to become masters or instructors, teaching students in 
+                    the ways that they had first learned. Grand Master Hong's philosophy is that 
+                    Taekwondo is much more than self-defense. He teaches that its foundation is about 
+                    mental discipline, confidence, balance, and harmony. Gaining strength and energy in 
+                    these qualities will not only make one a good student, but also a better person in life.
+                </span>
+            </div>
+        </div>
+       
+        <div class="intro">
+            <div class="div-img">
+            <img class="intro-img" class="grayscale" alt="logo" src="image/drAlphonso.jpg">
+            </div>
+            <div class="div-content">
+                <span class="more">
+                    Master Louis Alfonso, a student of Grand Master Hong for 20+ years, 5th Dan Master Louis 
+                    Alfonso, Ph.D. has been educating students for 13 of those years, mainly with children, 
+                    family, and adult classes. A certified referee of the United States Taekwondo Association, 
+                    Master Alfonso is Professor Emeritus of Foundations of Education at Rhode Island College. 
+                    As a teacher, he enjoys seeing how Taekwondo has helped students to mature not only in 
+                    their abilities, but also as persons.
+                </span>
+            </div>
+        </div>
+        <br>
 
 
-            <div>
+        <div>
         <h2 id="free_membership" class="content-head is-center">Free Membership Trial</h2>
 
         <div class="pure-g">
@@ -157,6 +187,7 @@
     
    
   
-<script src="js/ui.js"></script>         
+<script src="js/ui.js"></script>
+         
 </body>
 </html>
