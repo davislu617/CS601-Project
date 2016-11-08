@@ -18,6 +18,8 @@
     border-radius: 50%;
     max-width: 150px;
     height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(50%);
 }
 
 .div-content{
