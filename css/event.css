@@ -1,0 +1,96 @@
+.events{
+        width: 100%;
+        overflow: auto;
+    }
+    .event-countdown{
+        vertical-align: top;
+        display: inline-block;
+        color: white;
+        box-sizing: border-box;
+        border: 1px solid white;
+        height: 200px;
+    }
+    .event-img{
+        display: inline-block;
+        width: 300px;
+        height: 200px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .event-img img{
+        width: 300px;
+        height: 200px;
+    }
+    .countdown-row{
+        display: block;
+        text-align: center;
+    }
+    .countdown-section{
+        display: inline-block;
+        width:95px;
+    }
+    .countdown-amount{
+        display: block;
+        font-size: 3em;
+        line-height: 30px;
+    }
+    .countdown-period{
+        display: block;
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-top: 0.5em;
+    }
+    #events{
+        color: white;
+        min-height: 500px;
+    }
+    .selectDate{
+        box-sizing: border-box;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        color:white;
+    }
+    select{
+        background: #3b8ec2;
+    }
+    @media (max-width: 62em){
+        .events{
+            font-size: 70%;
+            margin-left: 20px;
+            width: 310px;
+            border: 1px solid white;
+        }
+        .countdown-section{
+            width: 60px;
+        }
+        .event-countdown{
+            display: block;
+            width: 300px;
+            height: 150px;
+            border: none;
+        }
+        .event-img{
+            display: block;
+            margin: 0;
+            padding: 10px;
+            padding-bottom: 0;
+            width: 280px;
+            height: 180px;
+        }
+        .event-img img{
+            width: 280px;
+        }
+        option{
+            color: white;
+        }
+        #events{
+            min-height: 300px;
+        }
+        .time{
+            display: block;
+        }
+        .timeBtn{
+            display: block;
+        }
+    }

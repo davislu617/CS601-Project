@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Programs -- Grand Master Hong</title>
+  
+  <script src="http://code.jquery.com/jquery-2.1.3.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script> 
+  <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/side-menu.css">
+  <link rel="stylesheet" href="css/membership.css">
+
+  <style>
+    * { font-family: Raleway; }
+  </style>
+  
+ </head>
+<body>
+    <div id="layout">
+    <a href="#menu" id="menuLink" class="menu-link">
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="#">Welcome</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="home.html" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="aboutus.html" class="pure-menu-link">About</a></li>
+                <li class="pure-menu-item"><a href="program.html" class="pure-menu-link">Program</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Membership</a></li>
+                <li class="pure-menu-item"><a href="event.html" class="pure-menu-link">Events</a></li>
+                <li class="pure-menu-item"><a href="contact.html" class="pure-menu-link">Location &<br>Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <a id="runner" href="#free_membership">
+        <div class="runner">
+            <h1>Free Membership Trial</h1>
+        </div>
+    </a>
+
+    <div id="main">
+        <div class="splash">
+            <div class="splash-img">
+                <img class="pure-img" alt="logo" src="image/logo1.png">
+            </div>
+            <div class="splash-head">
+                <h1>Grand Master Hong's World Class Taekwondo Center</h1>
+            </div>
+        </div>
+        <br>
+
+        <div id="testFrame">
+        <div id="start" class="test">
+            <h3>Do you want some recommendations from us?</h3>
+            <br>
+            <button id="startBtn" class="pure-button pure-button-primary">Yes please!</button>
+            <a class="pure-button pure-button-primary" href="#membership">No thanks!</a>
+        </div>
+        <div id="question1" class="test">
+            <h3>What is your age range?</h3>
+            <br>
+            <button id="q1_1" class="pure-button pure-button-primary">4 to 12</button>
+            <button id="q1_2" class="pure-button pure-button-primary">13 to 18</button>
+            <button id="q1_3" class="pure-button pure-button-primary">19 or 19+</button>
+        </div>
+        <div id="question2" class="test">
+            <h3>How many lessons/week do you want to attend?</h3>
+            <br>
+            <button id="q2_1" class="pure-button pure-button-primary">0 - 1</button>
+            <button id="q2_2" class="pure-button pure-button-primary">2 - 3</button>
+            <button id="q2_3" class="pure-button pure-button-primary">3 or 3+</button>
+        </div>
+        <div id="question3" class="test">
+            <h3>Do you have any family member that comes with you?</h3>
+            <br>
+            <button id="q3_1" class="pure-button pure-button-primary">Yes</button>
+            <button id="q3_2" class="pure-button pure-button-primary">No</button>
+        </div>
+        <div id="question4" class="test">
+            <h3>What is your family member's age range?</h3>
+            <br>
+            <button id="q4_1" class="pure-button pure-button-primary">12 or 12-</button>
+            <button id="q4_2" class="pure-button pure-button-primary">13 to 18</button>
+            <button id="q4_3" class="pure-button pure-button-primary">19 or 19+</button>
+        </div>
+        <div id="question5" class="test">
+            <h3>How many lessons/week does your family member want to attend?</h3>
+            <br>
+            <button id="q5_1" class="pure-button pure-button-primary">0 - 1</button>
+            <button id="q5_2" class="pure-button pure-button-primary">2 - 3</button>
+            <button id="q5_3" class="pure-button pure-button-primary">3 or 3+</button>
+        </div>
+        <div id="analyzing" class="test">
+            <h3>Analyzing  ... ... ...</h3>
+            <br>
+            <button id="analyzingBtn" class="pure-button pure-button-primary">See result</button>
+        </div>
+        <div id="result" class="test">
+            <h3>Our recommendations:</h3>
+            <div id="resultOut"></div>
+            <br>
+            <a class="pure-button pure-button-primary" href="program.html">See all programs</a>
+            <a class="pure-button pure-button-primary" href="#membership">See memberships</a>
+            <a id="reset"class="pure-button pure-button-primary" href="#">Do it again</a>
+        </div>
+        </div>
+
+        <div id="membership">
+            <h2>Memberships</h2>
+            <table class="pure-table pure-table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Lessons</th>
+                        <th>Individual/Family</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Silver</td>
+                        <td rowspan="2">15 Lessons/3 monthes</td>
+                        <td>Individual</td>
+                        <td>$600</td>
+                    </tr>
+                    <tr>
+                        <td>Family</td>
+                        <td>$700</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Gold</td>
+                        <td rowspan="2">30 Lessons/3 monthes</td>
+                        <td>Individual</td>
+                        <td>$900</td>
+                    </tr>
+                    <tr>
+                        <td>Family</td>
+                        <td>$1000</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Platinum</td>
+                        <td rowspan="2">60 Lessons/3 monthes</td>
+                        <td>Individual</td>
+                        <td>$1500</td>
+                    </tr>
+                    <tr>
+                        <td>Family</td>
+                        <td>$1600</td>
+                    </tr>
+                    <tr>
+                        <td>Ultimate</td>
+                        <td>Unlimited Lessons/3 monthes</td>
+                        <td>Family</td>
+                        <td>$600</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <h2 id="free_membership" class="content-head is-center">Free Membership Trial</h2>
+
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-2-5 box-padding-5">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+
+                        <label for="name">Your Name</label>
+                        <input id="name" type="text" placeholder="Your Name">
+
+
+                        <label for="email">Your Email</label>
+                        <input id="email" type="email" placeholder="Your Email">
+
+                        <label for="level">Experience Level</label>
+                        <select id="level">
+                        <option>Beginner</option>
+                        <option>Intermediate</option>
+                        <option>Professional</option>
+                        </select>
+
+                        <button id="signup" type="button" class="pure-button">Sign Up</button>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="pure-u-1 pure-u-md-3-5 content-buttom-right">
+                <h4>Description</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+        <div class="footer l-box">
+            <span>5955 Post Road, North Kingstown, RI 02852  Tel.401-885-4900</span>
+                <a href="https://plus.google.com/s/Grand%20Master%20Hong's%20World%20Class%20Taekwondo%20Center/top">
+                    <img class="footer_img" alt="google" src="image/google.png">
+                </a>
+                <a href="https://www.facebook.com/pages/Grand-Master-Hongs-World/116064318415574?rf=1662028074011798">
+                    <img class="footer_img" alt="facebook" src="image/fb.png">
+                </a>
+                <a href="https://twitter.com/search?src=typd&q=Grand%20Master%20Hong%27s">
+                    <img class="footer_img" alt="twitter" src="image/twitter.png">
+                </a>
+                <a href="https://www.youtube.com/channel/UCUawG9SapiRr5kmKmfDrGoQ">
+                    <img class="footer_img" alt="youtube" src="image/youtube.png">
+                </a>
+        </div>
+    </div>
+
+
+    </div>
+
+    </div>
+
+    
+    
+   
+  
+<script src="js/ui.js"></script>
+<script src="js/membership.js"></script>    
+<script src="js/signup.js"></script>    
+<script src="js/runner.js"></script>   
+</body>
+</html>

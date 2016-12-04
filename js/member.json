@@ -1,0 +1,7 @@
+{
+    "memberExample":{
+        "name":"Name Example",
+        "email":"email@example.com",
+        "level":"Beginner"
+    }
+}

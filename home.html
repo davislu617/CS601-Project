@@ -20,17 +20,14 @@
     #home_img{
         margin-top: 10%;
     }
-    .content-head, label{
-        color:white;
-    }
+
+
   </style>
   
  </head>
 <body>
     <div id="layout">
-    <!-- Menu toggle -->
     <a href="#menu" id="menuLink" class="menu-link">
-        <!-- Hamburger icon -->
         <span></span>
     </a>
 
@@ -41,13 +38,10 @@
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
                 <li class="pure-menu-item"><a href="aboutus.html" class="pure-menu-link">About</a></li>
-                <li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
-                    <a href="#" class="pure-menu-link">Program</a>
-                </li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Membership</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Events</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Gallery</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Location &<br>Contact</a></li>
+                <li class="pure-menu-item"><a href="program.html" class="pure-menu-link">Program</a></li>
+                <li class="pure-menu-item"><a href="membership.html" class="pure-menu-link">Membership</a></li>
+                <li class="pure-menu-item"><a href="event.html" class="pure-menu-link">Events</a></li>
+                <li class="pure-menu-item"><a href="contact.html" class="pure-menu-link">Location &<br>Contact</a></li>
             </ul>
         </div>
     </div>
@@ -76,16 +70,24 @@
         <br>
         <div id="home_img" class="pure-g">
                 <div class="pure-u-1-4">
+                    <a href="program.html#program1">
                     <img class="pure-img-responsive" src="image/b1.jpg" alt="Family Self Defense">
+                    </a>
                 </div>
                 <div class="pure-u-1-4">
+                    <a href="program.html#program2">
                     <img class="pure-img-responsive" src="image/b2.jpg" alt="Children Programs">
+                    </a>
                 </div>
                 <div class="pure-u-1-4">
+                    <a href="program.html#program3">
                     <img class="pure-img-responsive" src="image/b3.jpg" alt="Teen Self Defense">
+                    </a>
                 </div>
                 <div class="pure-u-1-4">
+                    <a href="program.html#program4">
                     <img class="pure-img-responsive" src="image/b4.jpg" alt="Adult Self Defense">
+                    </a>
                 </div>
             </div>
 
@@ -100,7 +102,7 @@
 
                         <label for="name">Your Name</label>
                         <input id="name" type="text" placeholder="Your Name">
-
+                        <div id="error"></div>
 
                         <label for="email">Your Email</label>
                         <input id="email" type="email" placeholder="Your Email">
@@ -112,7 +114,7 @@
                         <option>Professional</option>
                         </select>
 
-                        <button type="submit" class="pure-button">Sign Up</button>
+                        <button id="signup" type="button" class="pure-button">Sign Up</button>
                     </fieldset>
                 </form>
             </div>
@@ -132,17 +134,17 @@
             </div>
         </div>
         <div class="footer l-box">
-            <span>5955 Post Road, North Kingstown, RI 02852  Tel.401-885-4900<span>
-                <a href="#">
+            <span>5955 Post Road, North Kingstown, RI 02852  Tel.401-885-4900</span>
+                <a href="https://plus.google.com/s/Grand%20Master%20Hong's%20World%20Class%20Taekwondo%20Center/top">
                     <img class="footer_img" alt="google" src="image/google.png">
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/pages/Grand-Master-Hongs-World/116064318415574?rf=1662028074011798">
                     <img class="footer_img" alt="facebook" src="image/fb.png">
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/search?src=typd&q=Grand%20Master%20Hong%27s">
                     <img class="footer_img" alt="twitter" src="image/twitter.png">
                 </a>
-                <a href="#">
+                <a href="https://www.youtube.com/channel/UCUawG9SapiRr5kmKmfDrGoQ">
                     <img class="footer_img" alt="youtube" src="image/youtube.png">
                 </a>
         </div>
@@ -156,7 +158,8 @@
     
     
    
-  
-<script src="js/ui.js"></script>         
+<script src="js/ui.js"></script> 
+<script src="js/signup.js"></script>     
+<script src="js/runner.js"></script>     
 </body>
 </html>
