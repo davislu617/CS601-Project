@@ -1,4 +1,5 @@
 var result = [];
+//flow of analyzing
 $('#startBtn').click(function(){
     $('#start').fadeOut();
     $('#question1').delay(500).fadeIn();
@@ -67,7 +68,7 @@ $('#q4_2').click(function(){
 $('#q4_3').click(function(){
     $('#question4').fadeOut();
     $('#question5').delay(500).fadeIn();
-    result.push(2);
+    result.push(3);
 });
 
 $('#q5_1').click(function(){

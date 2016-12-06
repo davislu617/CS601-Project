@@ -7,16 +7,19 @@
     var divCount = -1;
     $(function() {
         $("#timeBtn").on("click", function(event){
-            for(let i = divCount; i > -1; i--){
+            //remove previous Countdowns
+            for(var i = divCount; i > -1; i--){
                 id = "countdown"+i;
                 $('#'+id).countdown('destroy');
             }
             $("#events").html("");
+            //initialize the number of events
             divCount = -1;
             var event;var time = $('#time').val();
             var parameter = {"time": time};
+            //get events; the parameter is the month that users select
             $.get("/getEvent", parameter, function(data) {
-                  for(let i = 0; i < data.length; i++){
+                  for(var i = 0; i < data.length; i++){
                       divCount ++;
                       eventName = data[i].eventName;
                       year = data[i].year;

@@ -1,7 +1,6 @@
 $(function(){
         $('.runner').on('click', function(){
             $('.runner').hide();
-            console.log($(this).scrollTop());
         });
         
         $(window).scroll(function(event){

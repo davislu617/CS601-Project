@@ -93,4 +93,7 @@
         .timeBtn{
             display: block;
         }
+        .countdown-period{
+        letter-spacing: 0;
+    }
     }
