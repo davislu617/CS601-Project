@@ -1,0 +1,27 @@
+{
+  "name": "cs601-project",
+  "description": "cs601 term project",
+  "keywords": [
+    "node",
+    "html",
+    "css"
+  ],
+  "author": "Yiqi Lu <yqlu@bu.edu>",
+  "contributors": [],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davislu617/CS601-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davislu617/CS601-Project/issues"
+  },
+  "homepage": "https://github.com/davislu617/CS601-Project#readme",
+  "version": "1.0.0",
+  "main": "project_express.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
